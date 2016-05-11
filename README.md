@@ -10,6 +10,10 @@ You will need [Maven v3.0.5 or above](http://maven.apache.org/run-maven/index.ht
 
 ## Usage
 Run the tests using "mvn test"
+
 Or run the application using:
-mvn package
-java -classpath target/shoppingbasket-1.0-SNAPSHOT.jar shoppingdemo.ShoppingCostsReporter
+```sh
+$ mvn package
+$ java -classpath target/shoppingbasket-1.0-SNAPSHOT.jar shoppingdemo.ShoppingCostsReporter
+```
+
